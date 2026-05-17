@@ -1,1 +1,82 @@
-<div id="root"></div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radio La Juntada</title>
+
+<style>
+cuerpo{
+margen:0;
+familia de fuentes: Arial, sans-serif;
+fondo:#111;
+color:blanco;
+alineación de texto:centro;
+}
+
+encabezamiento{
+fondo:#6a00ff;
+relleno: 40px;
+}
+
+h1{
+tamaño de fuente: 50px;
+margen:0;
+}
+
+pags{
+tamaño de fuente: 20px;
+}
+
+.botón{
+mostrar:bloque-en-línea;
+margen superior: 20px;
+relleno: 15px 30px;
+fondo:#00c853;
+color:blanco;
+decoración de texto: ninguna;
+radio de borde: 10px;
+tamaño de fuente: 20px;
+}
+
+.contenido{
+relleno: 40px;
+}
+
+audio{
+margen superior: 20px;
+ancho:80%;
+}
+</style>
+</head>
+
+<cuerpo>
+
+<encabezado>
+<h1>La Juntada Radio</h1>
+<p>Adoradores del Padre</p>
+
+<a class="boton" href="#radio">
+Escuchar en Vivo
+</a>
+</header>
+
+<div class="contenido">
+
+<h2>Radio Cristiana Juvenil</h2>
+
+<p>
+Bienvenidos a la transmision oficial
+de La Junta Radio.
+</p>
+
+<div id="radio">
+<controles de audio reproducción automática>
+<source src=" https://streampanel.online:8026/stream " type="audio/mpeg">
+</audio>
+</div>
+
+</div>
+
+</body>
+</html>
