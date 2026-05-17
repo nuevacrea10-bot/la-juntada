@@ -63,20 +63,3 @@ Escuchar en Vivo
 
 <div class="contenido">
 
-<h2>Radio Cristiana Juvenil</h2>
-
-<p>
-Bienvenidos a la transmision oficial
-de La Junta Radio.
-</p>
-
-<div id="radio">
-<controles de audio reproducción automática>
-<source src=" https://streampanel.online:8026/stream " type="audio/mpeg">
-</audio>
-</div>
-
-</div>
-
-</body>
-</html>
